@@ -23,6 +23,8 @@ step - 2 : To test the application before package it use below commands
 		   or
 		   mvn test
 		   It will generate a result_map.txt file in the same folder where the pom file is located
+		   If you wish to test the small_map.txt the please uncomment the necessary code block in NodeSerachTest.java and run the above commands.
+		   A sample result for small map also provided in the document section
 step - 3 : To package the application 
 		   mvn clean install
 		   or
