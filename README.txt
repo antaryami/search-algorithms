@@ -14,7 +14,7 @@ Junit : 4.9
 IDE : Eclipse kepler
 Maven : 3.0.4. You can use any version above 3.0.0 to build and test this project
 
-Hoe to use?
+How to use?
 --------------------------------------------
 
 step - 1 : Go to the directory of the application that contains pom.xml, it's located under src/node-search-api
