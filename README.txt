@@ -22,6 +22,7 @@ step - 2 : To test the application before package it use below commands
 		   mvn clean test
 		   or
 		   mvn test
+		   It will generate a result_map.txt file in the same folder where the pom file is located
 step - 3 : To package the application 
 		   mvn clean install
 		   or
