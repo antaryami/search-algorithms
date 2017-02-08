@@ -91,28 +91,6 @@ public abstract class AbstractNode {
         this.nodeCost = nodeCost ;
     }
 
-//    /**
-//     * sets nodeCost to previous AbstractNode nodeCost plus movement cost of the AbstractNode
-//     *
-//     * @param previousAbstractNode
-//     * @param basicCost
-//     */
-//    public void setNodeCost(AbstractNode previousAbstractNode, int basicCost) {
-//        setNodeCost(previousAbstractNode.getNodeCost() + basicCost);
-//    }
-//
-//    /**
-//     * sets nodeCost to nodeCost plus movementPanelty
-//     * for this AbstractNode given the previous AbstractNode.
-//     * <p>
-//     * It will assume <code>BASICMOVEMENTCOST</code> as the cost from
-//     * <code>previousAbstractNode</code> to itself if the movement is not diagonally,
-//     * otherwise it will assume <code>DIAGONALMOVEMENTCOST</code>.
-//     * Weather or not it is diagonally is set in the Map class method which
-//     * finds the adjacent AbstractNodes.
-//     *
-//     * @param previousAbstractNode
-//     */
     /**
      * sets nodeCost to previous AbstractNode nodeCost plus movement cost of the AbstractNode
      * 
@@ -133,17 +111,6 @@ public abstract class AbstractNode {
                 + getMovementCost());
     }
 
-//    /**
-//     * calculates - but does not set - g costs, adding a movementPanelty.
-//     *
-//     * @param previousAbstractNode
-//     * @param movementCost costs from previous AbstractNode to this AbstractNode.
-//     * @return gCosts
-//     */
-//    public int calculategCosts(AbstractNode previousAbstractNode, int movementCost) {
-//        return (previousAbstractNode.getNodeCost() + movementCost);
-//    }
-
     /**
      * returns costs to get from this AbstractNode to end AbstractNode.
      *
@@ -160,14 +127,6 @@ public abstract class AbstractNode {
     protected void setCostFromEndNode(int costFromEndNode) {
         this.costFromEndNode = costFromEndNode;
     }
-
-    
-//    @Override
-//    public String toString() {
-//        return "(" + getxPosition() + ", " + getyPosition() + "): h: "
-//                + getCostFromEndNode() + " nodeCost: " + getNodeCost() + " TotalCost: " + getTotalCost();
-//    }   
-
 
 	public int getMovementCost() {
 		return movementCost;
