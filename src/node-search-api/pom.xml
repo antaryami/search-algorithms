@@ -8,7 +8,6 @@
 	<description>Node Search Api</description>
 
 	<dependencies>
-
 		<!-- Test scope dependencies -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -16,7 +15,6 @@
 			<version>4.9</version>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
