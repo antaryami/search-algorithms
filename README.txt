@@ -7,7 +7,7 @@ This a node search api which finds the path in a given map using Astar search al
 The project is located under the src folder
 
 Tools/Technologies Used
--------------------------------------------
+------------------------------------------- 
 
 JDK : 1.7
 Junit : 4.9
